@@ -1,1 +1,4 @@
-print
+price = int(input("What is Bitcoin price today?"))
+sum = int(input("How much $ do you have?"))
+amount=sum/price
+print(f"You can buy {amount} BTC.")
